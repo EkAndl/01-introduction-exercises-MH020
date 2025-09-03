@@ -9,13 +9,21 @@ const lastName = "Latif";
 // EXERCISE
 // show in the console
 // My first name is Anders and my last name is Latif
-
+console.log("my first name is", firstName, lastName)
 
 // --------------------------------------
 // Exercise 2 - Numbers and Strings
 
 const year = "2024";
 const increment = 1;
+
+const total = Number(year) + increment
+const parsedYear = parseInt(year);
+const matchYear = Math.floor(year)
+console.log("mathed",matchYear)
+console.log("parsed", parsedYear)
+console.log("total", total); 
+
 
 // Add the year plus the increment
 // The result should be 2025
